@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const API_BASE = process.env.REACT_APP_API_URL || 'https://marketing-agent-server-production.up.railway.app';
+const API_BASE = 'https://marketing-agent-server-production.up.railway.app';
 
 const TABS = ['Plan', 'Images', 'Captions', 'Reels', 'Scripts'];
 
